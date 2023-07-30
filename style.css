@@ -1,0 +1,44 @@
+.header{
+    width: 100%;
+    height: 100vh;
+   background-color: cadetblue;
+   background-size: cover;
+   background-position: center;
+    
+}
+/* input{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+button{
+    position: absolute;
+    width: 5%;
+    height: 7%;
+    
+} */
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.launch-time{
+    display: flex;
+}
+.launch-time div{
+    flex-basis: 100px;
+}
+.launch-time div p{
+    font-size: 40px;
+    z-index: 1;
+    color: white;
+    font-weight: bold;
+}
+.launch-time div span{
+    color: white;
+}
+
+
